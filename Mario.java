@@ -18,7 +18,7 @@ import javax.sound.sampled.Clip;
 
 // =============== README ===============
 // Use wd to move mario around the screen
-// Space to jump
+// Space to juempwq
 // Toggle music on and off with the playMusic boolean at the bottom of the file
 
 public class Mario {
