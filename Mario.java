@@ -198,6 +198,13 @@ public class Mario {
                                     goombaDead = true;
                                     loopAudio = false;
                                     playAudio("res/sounds/goomba_stomp.wav");
+                                    
+                                }
+                                if (mario.getY() > 250) {
+                                    mario.setX(80);
+                                    mario.setY(190);
+                                    goombaDead = false;
+                                    backgroundX = 0;
                                 }
 
 
